@@ -122,6 +122,8 @@ a {
   align-items: center;
   position: relative;
   z-index: 1;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 .hero-content {
