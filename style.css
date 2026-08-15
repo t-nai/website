@@ -429,6 +429,18 @@ a {
   z-index: 1;
 }
 
+.travel {
+  margin-top: 3rem;
+}
+
+.travel-map {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin-top: 1.5rem;
+}
+
 @media (max-width: 950px) {
   .hero,
   .section-grid {
