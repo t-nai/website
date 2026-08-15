@@ -122,6 +122,14 @@ a {
   align-items: center;
   position: relative;
   z-index: 1;
+  position: relative;
+  background-image: var(--hero-photo);
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
 }
 
 .hero-content {
