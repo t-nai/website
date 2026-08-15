@@ -440,6 +440,8 @@ a {
   display: block;
   margin-top: 1.5rem;
   border-radius: 20px;
+  border: 1px solid var(--border);
+  box-shadow: 0 8px 30px var(--shadow);
 }
 
 @media (max-width: 950px) {
